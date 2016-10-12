@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'geo_ip'
-  s.version     = '0.3.2'
+  s.version     = '0.3.3'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Jeroen Jacobs']
   s.email       = 'gems@jeroenj.be'
@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'json', '~> 1.4'
-  s.add_dependency 'rest-client', '~> 1.6.1'
+  s.add_dependency 'rest-client', '~> 1.7.0'
   s.add_development_dependency 'rspec', '~> 2.5'
 end

@@ -1,5 +1,9 @@
 ## 0.3.2
 
+* Update rest-client dependency which exposes a configuration for SSL version
+
+## 0.3.2
+
 * Switches to [rest-client](https://github.com/adamwiggins/rest-client) for requests
 * Sets default timeout to 1 second and adds option to override it
 * More relaxed json dependency scoping
