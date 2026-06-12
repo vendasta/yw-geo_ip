@@ -1,0 +1,6 @@
+services:
+  - name: yw-geo_ip
+    owner: honey-badger
+    language: ruby
+    nonServiceType: library
+    description: "Retreive the geolocation of an IP address based on the ipinfodb.com webservice"
